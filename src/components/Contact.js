@@ -1,19 +1,33 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from 'emailjs-com'
+import Loading from './Loading';
+import toast from 'react-hot-toast';
 
 const Contact = () => {
 
+    const [sendingLoading, setSendingLoading] = useState(false)
+
     const form = useRef();
+
+    if(sendingLoading) {
+        return <Loading/>
+    }
 
     const sendEmail = (e) => {
         e.preventDefault();
+        setSendingLoading(true)
 
         emailjs.sendForm('service_kpgu2qj', 'template_1w9zbrw', form.current, 'izhjd_XATNZhThYrx')
             .then((result) => {
                 console.log(result.text);
+                setSendingLoading(false)
+                toast.success('Success To Send Email', {id: 'success'})
             }, (error) => {
                 console.log(error.text);
+                setSendingLoading(false)
+                toast.error('Failed To Send Email', {id: 'failed'})
             });
+            e.target.reset()
     };
 
     return (
