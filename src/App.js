@@ -4,12 +4,14 @@ import Footer from './components/Footer';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import { Toaster } from 'react-hot-toast';
+import Projects from './components/Projects';
 
 function App() {
   return (
-    <div>
+    <div className='bg-[#2D2B3B]'>
       <Hero/>
       <Skills/>
+      <Projects/>
       <Contact/>
       <Footer/>
       <Toaster />
