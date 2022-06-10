@@ -1,4 +1,5 @@
 import React from 'react';
+import { Fade } from 'react-reveal';
 
 const Skills = () => {
     return (
@@ -8,43 +9,95 @@ const Skills = () => {
                 <div>
                     <h2 className='text-3xl font-bold text-white'>Expertise:</h2>
                     <p className='space-x-3 space-y-1 my-2 text-green-500'>
-                        <div className="badge badge-outline font-medium">Html</div>
-                        <div className="badge badge-outline font-medium">Css</div>
-                        <div className="badge badge-outline font-medium">Tailwind Css</div>
-                        <div className="badge badge-outline font-medium">Bootstrap 5</div>
-                        <div className="badge badge-outline font-medium">Javascript</div>
-                        <div className="badge badge-outline font-medium">React</div>
-                        <div className="badge badge-outline font-medium">React Router</div>
-                        <div className="badge badge-outline font-medium">Daisy Ui</div>
+                        {/* 
+                        
+                        
+                        
+                        
+                        
+                         */}
+                        <Fade right >
+                            <div className="badge badge-outline font-medium">Html</div>
+                        </Fade>
+                        <Fade right >
+                            <div className="badge badge-outline font-medium">Css</div>
+                        </Fade>
+                        <Fade right >
+                            <div className="badge badge-outline font-medium">Tailwind Css</div>
+                        </Fade>
+                        <Fade right >
+                            <div className="badge badge-outline font-medium">Bootstrap 5</div>
+                        </Fade>
+                        <Fade right >
+                            <div className="badge badge-outline font-medium">Javascript</div>
+                        </Fade>
+                        <Fade right >
+                            <div className="badge badge-outline font-medium">React</div>
+                        </Fade>
+                        <Fade right >
+                            <div className="badge badge-outline font-medium">React Router</div>
+                        </Fade>
+                        <Fade right >
+                            <div className="badge badge-outline font-medium">Daisy Ui</div>
+                        </Fade>
                     </p>
                 </div>
                 <div>
                     <h2 className='text-3xl font-bold text-white'>Comfortable:</h2>
                     <p className='space-x-3 space-y-1 my-2 text-green-500'>
-                        <div className="badge badge-outline font-medium">Express</div>
-                        <div className="badge badge-outline font-medium">MongoDB</div>
-                        <div className="badge badge-outline font-medium">Payment Gateway</div>
+                        <Fade left>
+                            <div className="badge badge-outline font-medium">Express</div>
+                        </Fade>
+                        <Fade left>
+                            <div className="badge badge-outline font-medium">MongoDB</div>
+                        </Fade>
+                        <Fade left>
+                            <div className="badge badge-outline font-medium">Payment Gateway
+                            </div>
+                        </Fade>
                     </p>
                 </div>
                 <div>
                     <h2 className='text-3xl font-bold text-white'>Familiar:</h2>
                     <p className='space-x-3 space-y-1 my-2 text-green-500'>
-                        <div className="badge badge-outline font-medium">React Native</div>
-                        <div className="badge badge-outline font-medium">Next Js</div>
-                        <div className="badge badge-outline font-medium">Material Ui</div>
+                        <Fade big >
+                            <div className="badge badge-outline font-medium">React Native</div>
+                        </Fade>
+                        <Fade big >
+                            <div className="badge badge-outline font-medium">Next Js</div>
+                        </Fade>
+                        <Fade big >
+                            <div className="badge badge-outline font-medium">Material Ui</div>
+                        </Fade>
                     </p>
                 </div>
                 <div>
                     <h2 className='text-3xl font-bold text-white'>Tools: </h2>
                     <p className='space-x-3 space-y-1 my-2 text-green-500'>
-                        <div className="badge badge-outline font-medium">Github</div>
-                        <div className="badge badge-outline font-medium">Vs Code</div>
-                        <div className="badge badge-outline font-medium">Heroku</div>
-                        <div className="badge badge-outline font-medium">Firebase Authentication</div>
-                        <div className="badge badge-outline font-medium">Chrome Dev Tool</div>
-                        <div className="badge badge-outline font-medium">Netlify</div>
-                        <div className="badge badge-outline font-medium">Postman</div>
-                        <div className="badge badge-outline font-medium">Figma</div>
+                        <Fade bottom >
+                            <div className="badge badge-outline font-medium">Github</div>
+                        </Fade>
+                        <Fade bottom >
+                            <div className="badge badge-outline font-medium">Vs Code</div>
+                        </Fade>
+                        <Fade bottom >
+                            <div className="badge badge-outline font-medium">Heroku</div>
+                        </Fade>
+                        <Fade bottom >
+                            <div className="badge badge-outline font-medium">Firebase Authentication</div>
+                        </Fade>
+                        <Fade bottom >
+                            <div className="badge badge-outline font-medium">Chrome Dev Tool</div>
+                        </Fade>
+                        <Fade bottom >
+                            <div className="badge badge-outline font-medium">Netlify</div>
+                        </Fade>
+                        <Fade bottom >
+                            <div className="badge badge-outline font-medium">Postman</div>
+                        </Fade>
+                        <Fade bottom >
+                            <div className="badge badge-outline font-medium">Figma</div>
+                        </Fade>
                     </p>
                 </div>
             </div>

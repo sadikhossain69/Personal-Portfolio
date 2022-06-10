@@ -19,7 +19,7 @@ const ProjectDetail = () => {
 
     return (
         <section className='bg-white mt-5'>
-            <h2 className='text-center text-4xl font-bold underline underline-offset-8 decoration-red-500 text-red-500 mb-10'>My Projects</h2>
+            <h2 className='text-center text-4xl font-bold underline underline-offset-8 decoration-red-500 text-red-500 mb-10'>Project Details</h2>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 px-5' >
                 <img className='border rounded shadow' src={image_1} alt="" />
                 <img className='border rounded shadow' src={image_2} alt="" />
