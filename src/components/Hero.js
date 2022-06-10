@@ -1,6 +1,6 @@
 import React from 'react';
 import Typed from 'react-typed';
-import { BsGithub, BsLinkedin, BsFacebook } from 'react-icons/bs'
+import { BsGithub, BsLinkedin, BsFacebook, BsTwitter } from 'react-icons/bs'
 
 const Hero = () => {
     return (
@@ -32,6 +32,7 @@ const Hero = () => {
                                 <a href='https://github.com/sadikhossain69' target='_blank' rel="noreferrer" className='text-white text-4xl'><BsGithub/></a>
                                 <a href="https://www.linkedin.com/in/sadik-hossain-520848237/" target='_blank' rel="noreferrer" className='text-white text-4xl'><BsLinkedin/></a>
                                 <a href="https://www.facebook.com/profile.php?id=100075373803592" target='_blank' rel="noreferrer" className='text-white text-4xl'><BsFacebook/></a>
+                                <a href="https://twitter.com/JoarderSadik" target='_blank' rel="noreferrer" className='text-white text-4xl'><BsTwitter/></a>
                             </div>
                         </div>
                     </div>
