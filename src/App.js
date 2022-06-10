@@ -1,20 +1,15 @@
 import './App.css';
-import Hero from '../src/components/Hero'
-import Footer from './components/Footer';
-import Skills from './components/Skills';
-import Contact from './components/Contact';
-import { Toaster } from 'react-hot-toast';
-import Projects from './components/Projects';
+import { Route, Routes } from 'react-router-dom';
+import Home from './components/Home';
+import ProjectDetail from './components/ProjectDetail';
 
 function App() {
   return (
     <div className='bg-[#2D2B3B]'>
-      <Hero/>
-      <Skills/>
-      <Projects/>
-      <Contact/>
-      <Footer/>
-      <Toaster />
+      <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path='/projects/:id' element={<ProjectDetail/>} />
+      </Routes>
     </div>
     // #2D2B3B
   );
