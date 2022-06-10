@@ -1,5 +1,6 @@
 import React from 'react';
 import { Toaster } from 'react-hot-toast';
+import About from './About';
 import Contact from './Contact';
 import Footer from './Footer';
 import Hero from './Hero';
@@ -13,6 +14,7 @@ const Home = () => {
             <Skills />
             <Projects />
             <Contact />
+            <About/>
             <Footer />
             <Toaster />
         </div>
