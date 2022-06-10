@@ -15,7 +15,7 @@ const Project = ({project}) => {
                 </h2>
                 <p className='font-medium'>{description}</p>
                 <div className="card-actions justify-end">
-                    <button><Link to={`projects/${_id}`} >See Detail</Link></button>
+                    <button className='bg-blue-600 text-white px-3 py-1 hover:bg-blue-500 duration-300 ease-in-out hover:scale-110 rounded' ><Link to={`projects/${_id}`} >See Detail</Link></button>
                 </div>
             </div>
         </div>
