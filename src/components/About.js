@@ -9,7 +9,7 @@ const About = () => {
                 <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
                     <Fade left >
                         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
-                            <img className="object-cover object-center rounded border-black border" alt="hero" src="https://i.ibb.co/Jr3Lv9N/sadiks-1.jpg" />
+                            <img className="object-cover object-center rounded border-black border" alt="hero" src="2.jpg" />
                         </div>
                     </Fade>
                     <Fade right >
