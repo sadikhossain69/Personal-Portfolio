@@ -26,7 +26,7 @@ const Hero = () => {
                         </h1>
                         <p className='my-2 text-xl text-white font-bold'>Email: <span className='text-blue-500'>sadikhossain433@gmail.com</span></p>
                         <p className='my-2 text-xl text-white font-bold'>Whatsapp: <span className='text-blue-500'>+8801842593133</span></p>
-                        <p className="mb-8 leading-relaxed text-white font-medium">Hello, My name is sadik. I'm a professional Frontend Developer. I'm very passionate to this work. I have been learning for 1 year. I also have done some projects.</p>
+                        <p className="mb-8 leading-relaxed text-white font-medium">Hello, My name is sadik. I'm a professional Frontend Developer. I'm very passionate to this work. I have been learning for 2 years. I also have done some projects.</p>
                         <div className="flex justify-center flex-col">
                             <div className='mb-6'>
                                 <a href='https://drive.google.com/file/d/1Q7S_UgYm-cLmP2UkX7YwdesWCv77VBRH/view' target='_blank' rel="noreferrer" className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Download My Resume</a>

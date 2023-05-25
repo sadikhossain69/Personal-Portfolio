@@ -18,7 +18,7 @@ const About = () => {
                                 Hello, My name is sadik.
                             </h1>
                             <p className="mb-8 leading-relaxed text-white font-medium text-base">
-                                I'm a professional Frontend Developer. I'm very passionate to this work. I have been learning for 1 year. I also have done some projects. My first responsibility is satisfying my client My  My goal is to become a Software Engineer. Now I'm learning express js, next js and react native. My hobby is playing video games like Grand Theft Auto, Dying Light 2, Apex Legend and many more.
+                                I'm a professional Frontend Developer. I'm very passionate to this work. I have been learning for 2 year. I also have done some projects. My first responsibility is satisfying my client My  My goal is to become a Software Engineer. Now I'm learning express js, next js and react native. My hobby is playing video games like Grand Theft Auto, Dying Light 2, Apex Legend and many more.
                             </p>
                         </div>
                     </Fade>

@@ -67,6 +67,9 @@ const Skills = () => {
                             <div className="badge badge-outline font-medium">Next Js</div>
                         </Fade>
                         <Fade big >
+                            <div className="badge badge-outline font-medium">Redux</div>
+                        </Fade>
+                        <Fade big >
                             <div className="badge badge-outline font-medium">Material Ui</div>
                         </Fade>
                     </p>
